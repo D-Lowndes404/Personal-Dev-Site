@@ -3,3 +3,27 @@ body {
     font-family: 'Jetbrains Mono', monospace;
    /* added non stock font family and made the background not as harsh on the eyes */  
 }
+
+/* centers the page to keep in aligned center for any screen */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* for the section at the top of the page that includes name and under quote */
+header {
+    background-color: #9A1818;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px; /* give each of the boxes a rounded corner*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* This give each of the boxes a slight shadowed effect. */
+
+}
