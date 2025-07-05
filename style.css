@@ -19,6 +19,27 @@ header {
     text-align: center;
 }
 
+
+/* For centering and changing the style of the page jumping links at the top of the page */
+nav ul {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+
+
+/* For the text boxes in the middle of the page */
 section {
     background-color: white;
     margin: 20px 0;
