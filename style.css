@@ -1,5 +1,5 @@
 body {
-    background-color: #B8CABE;
+    background-color: #e9e9e6;
     font-family: 'Jetbrains Mono', monospace;
    /* added non stock font family and made the background not as harsh on the eyes */  
 }
@@ -13,7 +13,7 @@ main {
 
 /* for the section at the top of the page that includes name and under quote */
 header {
-    background-color: #9A1818;
+    background-color: #3b7dcb;
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -22,6 +22,7 @@ header {
 
 /* For centering and changing the style of the page jumping links at the top of the page */
 nav ul {
+    
     display:flex;
     justify-content: center;
     gap: 20px;
@@ -30,8 +31,9 @@ nav ul {
     margin: 20px 0;
 }
 
-
+/* Changes how the links look */
 nav a{
+    font-size: larger;
     text-decoration: none;
     color: #222;
     font-weight: bold;
@@ -46,5 +48,13 @@ section {
     padding: 20px;
     border-radius: 8px; /* give each of the boxes a rounded corner*/
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* This give each of the boxes a slight shadowed effect. */
+
+}
+
+footer{
+    background-color: #cc5a2e;
+    color: black;
+    padding: 5px 20px;
+    text-align: left;
 
 }
