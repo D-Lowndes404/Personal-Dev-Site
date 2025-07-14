@@ -1,4 +1,5 @@
 body {
+    transition: background-color 0.3s ease, color 0.3s ease;
     background-color: #e9e9e6;
     font-family: 'Jetbrains Mono', monospace;
    /* added non stock font family and made the background not as harsh on the eyes */  
@@ -54,4 +55,32 @@ footer{
     padding: 5px 20px;
     text-align: left;
 
+}
+
+
+/* Dark Mode Style */
+
+/* Polish dark mode colors on next update */
+
+body.dark-mode {
+    background-color: #111111;
+    color: #eeeeee;
+}
+
+body.dark-mode section {
+    background-color: #e1e1e1;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode header{
+    background-color: #333;
+}
+
+body.dark-mode nav a {
+    color: #ccc;
+}
+
+body.dark-mode footer {
+    background-color: #222;
+    color: #eee;
 }
